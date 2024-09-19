@@ -19,5 +19,5 @@ mm = (int(x[-4:-2:]) + ss) / 60
 # Add converted minutes to degrees.
 dd = int(x[:2]) + mm
 
-# Print the final result with a friendly message.
+# Print the final result with a message.
 print('Your coordinate in decimal degrees is {0}'.format(str(round(dd,2))))
